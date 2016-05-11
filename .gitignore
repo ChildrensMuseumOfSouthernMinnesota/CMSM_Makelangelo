@@ -1,3 +1,5 @@
 *.ngc
 PictureDownloader/userConfig.txt
 PictureDownloader/DrawingFiles/
+log.html
+log.txt
