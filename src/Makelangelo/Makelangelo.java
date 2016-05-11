@@ -1067,7 +1067,7 @@ public class Makelangelo
 	public void OpenFileDialog() {
 	    // Note: source for ExampleFileFilter can be found in FileChooserDemo,
 	    // under the demo/jfc directory in the Java 2 SDK, Standard Edition.
-		String filename = (recentFiles[0].length()>0) ? filename=recentFiles[0] : "/DrawingFiles/";	
+		String filename = "PictureDownloader/DrawingFiles/";	//(recentFiles[0].length()>0) ? filename=recentFiles[0] : 
 		
 		FileFilter filterGCODE = new FileNameExtensionFilter(MultilingualSupport.getSingleton().get("FileTypeGCode"), "ngc");
 		FileFilter filterImage = new FileNameExtensionFilter(MultilingualSupport.getSingleton().get("FileTypeImage"), "jpg", "jpeg", "png", "wbmp", "bmp", "gif");
